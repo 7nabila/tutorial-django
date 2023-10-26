@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pelajaran ke-1 Tutorial-Django UMS
 
 ## A. Checkout branch `P2-mulai`
@@ -28,3 +29,13 @@ Jika anda ingin membandingkan dengan kunci jawaban yang ada, maka anda bisa mela
 ```
 git checkout P2-selesai
 ```
+=======
+# tutorial-django
+
+1. [Pelajaran ke-1: Django Request, Response, Models dan Admin.](https://github.com/dosenjelata/tutorial-django/tree/P1-mulai)
+2. [Pelajaran ke-2: Django Views, Forms dan Template.](https://github.com/dosenjelata/tutorial-django/tree/P2-mulai)
+3. Testing, Custom Admin, dan Static Files
+
+![Arsitektur Django](./public/django-architecture.png)
+Gambar 1. Arsitektur Django
+>>>>>>> a69ab46ef7788365f585182603e7fd4312c608ce

@@ -1,5 +1,8 @@
 import datetime
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2463072c42a82cb8311a723d3ea446f3f14c761c
 from django.db import models
 from django.utils import timezone
 
@@ -14,11 +17,22 @@ class Question(models.Model):
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2463072c42a82cb8311a723d3ea446f3f14c761c
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
 
     def __str__(self):
+<<<<<<< HEAD
         return self.choice_text
+=======
+        return self.choice_text
+
+
+#1. makemigration = perubahan isi file
+#2. migration = menjalankan perubahan dari file
+>>>>>>> 2463072c42a82cb8311a723d3ea446f3f14c761c
